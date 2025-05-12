@@ -8,7 +8,7 @@ const AdmissionFormSection = ({
 }: {
   isCompact?: boolean;
 }) => {
-  const [formData, setFormData] = useState({
+  const [formData] = useState({
     childName: "",
     childAge: "",
     gender: "",
@@ -22,16 +22,11 @@ const AdmissionFormSection = ({
     additionalInfo: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+  const handleChange = () => {
+    console.log("hello");
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     // Form submission will be handled later as mentioned
     alert("ফর্ম জমা দেওয়া হয়েছে! আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।");
   };
