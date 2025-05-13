@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const MembershipForm = () => {
-  const [formData] = useState({
+  const [formData, setFormData] = useState({
     // Basic Info
     name: "",
     fatherName: "",
@@ -22,8 +22,11 @@ const MembershipForm = () => {
     nomineeNid: "",
   });
 
-  const handleChange = () => {
-    console.log("submitting");
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData((prev) => {
+      return { ...prev, [name]: value };
+    });
   };
 
   const handleSubmit = () => {

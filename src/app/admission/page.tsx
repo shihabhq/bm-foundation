@@ -19,8 +19,8 @@ export default function AdmissionPage() {
         </div>
 
         <Heading
-          coloredText="সদস্যপদ"
-          text="নিবন্ধন ফর্ম"
+          coloredText="নিবন্ধন ফর্ম"
+          text="সদস্যপদ"
           description="বন্ধুমহল ফাউন্ডেশনের সদস্য হতে নিচের ফর্মটি পূরণ করুন। আমরা আপনার
             আবেদন পর্যালোচনা করে শীঘ্রই আপনার সাথে যোগাযোগ করব।"
         />
