@@ -5,12 +5,14 @@ const MembershipForm = () => {
   const [formData, setFormData] = useState({
     // Basic Info
     name: "",
-    fatherName: "",
+    guardianName: "",
     village: "",
     post: "",
     district: "",
+    subDistrict: "",
     nationality: "বাংলাদেশী",
     religion: "",
+
     profession: "",
     mobile: "",
     nid: "",
@@ -66,16 +68,16 @@ const MembershipForm = () => {
               </div>
               <div>
                 <label
-                  htmlFor="fatherName"
+                  htmlFor="guardianName"
                   className="block text-sm font-medium text-gray-700 mb-1"
                 >
-                  পিতার নাম *
+                  পিতার/স্বামীর নাম *
                 </label>
                 <input
                   type="text"
-                  id="fatherName"
-                  name="fatherName"
-                  value={formData.fatherName}
+                  id="guardianName"
+                  name="guardianName"
+                  value={formData.guardianName}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#377375] focus:border-transparent"
@@ -127,6 +129,23 @@ const MembershipForm = () => {
                   id="district"
                   name="district"
                   value={formData.district}
+                  onChange={handleChange}
+                  required
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#377375] focus:border-transparent"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="subDistrict"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  থানা/উপজেলা *
+                </label>
+                <input
+                  type="text"
+                  id="subDistrict"
+                  name="subDistrict"
+                  value={formData.subDistrict}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#377375] focus:border-transparent"
@@ -206,7 +225,7 @@ const MembershipForm = () => {
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#377375] focus:border-transparent"
                 />
               </div>
-              <div>
+              <div className="md:col-span-2">
                 <label
                   htmlFor="nid"
                   className="block text-sm font-medium text-gray-700 mb-1"

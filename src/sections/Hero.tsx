@@ -108,29 +108,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Stats Bar
-        <div className="mt-16 md:mt-20 bg-white rounded-xl shadow-lg p-6 md:p-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-[#284a4e]">
-                ১৫+
-              </h3>
-              <p className="mt-2 text-gray-600">বছরের অভিজ্ঞতা</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-[#284a4e]">
-                ৫০+
-              </h3>
-              <p className="mt-2 text-gray-600">জেলায় কার্যক্রম</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-[#284a4e]">
-                ১০০,০০০+
-              </h3>
-              <p className="mt-2 text-gray-600">উপকারভোগী</p>
-            </div>
-          </div>
-        </div> */}
+   
       </div>
     </section>
   );

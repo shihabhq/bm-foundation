@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AdmissionPage() {
   return (
     <div className="mb-16">
-      <div className="pt-24 md:pt-28">
+      <div className="pt-24 md:pt-28 mb-20">
         <div className="bg-[#284a4e] mb-16 text-white py-16 md:py-24">
           <div className="max-w-[1280px] mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-5xl font-bold mb-6">

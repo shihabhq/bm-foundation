@@ -3,7 +3,7 @@ import DonationSection from "@/sections/Donation";
 export default function DonationPage() {
   return (
     <div className="mb-20">
-      <div className="pt-28 md:pt-14 ">
+      <div className="pt-24 md:pt-28 mb-20 ">
         <div className="bg-[#284a4e] text-white py-16 md:py-24">
           <div className="max-w-[1280px] mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-5xl font-bold mb-6">
