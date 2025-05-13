@@ -70,7 +70,7 @@ const Header = () => {
         {/* Desktop Buttons */}
         <div className="flex-1 z-10 hidden sm:flex items-center gap-4 justify-end">
           <NavButton href="/donation" text="অনুদান" />
-          <NavButton href="/admission" text="ভর্তি ফর্ম" />
+          <NavButton href="/admission" text="আবেদন ফর্ম" />
         </div>
 
         {/* Mobile Menu Button */}
@@ -119,7 +119,7 @@ const Header = () => {
 
           <div className="sm:hidden mt-4 flex flex-col space-y-4">
             <NavButton href="/donation" text="অনুদান" />
-            <NavButton href="/admission" text="ভর্তি ফর্ম" />
+            <NavButton href="/admission" text="আবেদন ফর্ম" />
           </div>
         </div>
       </div>

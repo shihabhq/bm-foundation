@@ -1,6 +1,3 @@
-
-import Image from "next/image";
-
 const ContactSection = ({ isCompact = true }: { isCompact?: boolean }) => {
   return (
     <section
@@ -121,7 +118,7 @@ const ContactSection = ({ isCompact = true }: { isCompact?: boolean }) => {
                 মেসেজ করুন
               </a>
 
-              <p className="mt-4 font-medium text-gray-700">+৮৮০ ১৭১২৩৪৫৬৭৮</p>
+              <p className="mt-4 font-medium text-gray-700">+393277779363</p>
               <p className="text-sm text-gray-500">দ্রুত উত্তর পাবেন</p>
             </div>
           </div>
@@ -182,62 +179,6 @@ const ContactSection = ({ isCompact = true }: { isCompact?: boolean }) => {
             </div>
           </div>
         </div>
-
-        {!isCompact && (
-          <div className="mt-16 max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
-              <div className="flex flex-col md:flex-row items-start md:items-center">
-                <div className="bg-[#284a4e]/10 p-3 rounded-full mb-4 md:mb-0 md:mr-6">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-[#284a4e]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-bold text-[#284a4e] text-lg">
-                    অফিস সময়সূচী
-                  </h4>
-                  <p className="text-gray-600 mt-2">
-                    আমাদের অফিস সকাল ৯টা থেকে বিকাল ৫টা পর্যন্ত খোলা থাকে,
-                    শুক্রবার বন্ধ। আপনি যেকোনো সময় আমাদের সাথে যোগাযোগ করতে
-                    পারেন, আমরা যত দ্রুত সম্ভব আপনার সাথে যোগাযোগ করব।
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src="/placeholder.svg?height=600&width=1200"
-                  alt="Office location map"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-[#284a4e]/10 flex items-center justify-center">
-                  <div className="bg-white p-4 rounded-lg shadow-lg text-center">
-                    <h4 className="font-bold text-[#284a4e]">
-                      বন্ধুমহল ফাউন্ডেশন
-                    </h4>
-                    <p className="text-gray-600">
-                      ১২৩/এ, মিরপুর রোড, ঢাকা-১২১৬
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="pt-28  pb-16 md:pt-32 md:pb-20 lg:pt-40 lg:pb-24 px-4 bg-gradient-to-br from-white to-gray-50">
+    <section className="pt-10 overflow-hidden pb-16 md:pt-12 md:pb-20 lg:pt-16 lg:pb-24 px-4 bg-gradient-to-br from-white to-gray-50">
       <div className="max-w-[1280px] md:w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Left Content */}
@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+          <div className=" overflow-hidden w-full lg:w-1/2 mt-8 lg:mt-0">
             <div className="relative">
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#377375]/10 rounded-full z-0"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#284a4e]/10 rounded-full z-0"></div>
