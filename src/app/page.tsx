@@ -1,4 +1,5 @@
 import Activities from "@/sections/Activities";
+import ConstitutionSection from "@/sections/Constitution";
 
 import ContactSection from "@/sections/Contact";
 import DonationSection from "@/sections/Donation";
@@ -21,6 +22,7 @@ export default function Home() {
       <Activities />
       <DonationSection />
       <MembershipForm />
+      <ConstitutionSection />
       <ContactSection />
     </>
   );
